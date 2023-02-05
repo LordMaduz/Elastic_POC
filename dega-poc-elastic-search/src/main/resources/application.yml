@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/dega/elastic
+
+
+spring:
+  application:
+    name: elastic-search
+
+logging:
+  level:
+    org.springframework.data.elasticsearch.client.WIRE: TRACE
+
+elastic:
+  cluster:
+    username: elastic
+    password: password
+    host: localhost
+    port: 9200
+
