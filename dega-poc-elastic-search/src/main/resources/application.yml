@@ -16,6 +16,6 @@ elastic:
   cluster:
     username: elastic
     password: hU1JteGUr=*5PpL4jQwQ
-    host: 13.212.158.86
+    host: *******
     port: 9200
 
