@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @OpenAPIDefinition(info= @Info(title = "Test", version = "1.0", description = "Test"))
-public class DegaPocElasticSearchApplication {
+public class PocElasticSearchApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DegaPocElasticSearchApplication.class, args);
 	}
