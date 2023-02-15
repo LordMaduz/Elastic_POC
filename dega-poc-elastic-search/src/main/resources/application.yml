@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/elastic
+
+#logging:
+#  level:
+#    org.springframework.data.elasticsearch.client.WIRE: TRACE
+
+
+spring:
+  application:
+    name: elastic-search
+  main:
+    allow-bean-definition-overriding: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details : "always"
+
+
+elastic:
+  cluster:
+    username: elastic
+    password: Password8291
+    connectionString: host:port,host:port,host:port
